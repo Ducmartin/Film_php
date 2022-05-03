@@ -1,0 +1,39 @@
+#wrapper #wp-content #sidebar{
+    border-right: 2px solid #fff;
+    min-height: 900px;
+}
+ #wrapper #wp-content #sidebar ul li.nav-item{
+    padding: 5px 5px;
+    /* border-bottom: 1px solid #fff; */
+ }
+#wrapper #wp-content #sidebar #sidebar-menu .nav-item a{ 
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: yellow;
+}
+#wrapper #wp-content #sidebar #sidebar-menu .nav-item .sub-menu{
+    padding-left: 18px;
+    display: none;
+} 
+#sidebar-menu .nav-item .nav-link{
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+#sidebar-menu .nav-item .nav-link .arrow {
+    position: absolute;
+    top: 21px;
+    right: 30px;
+
+}
+#sidebar #sidebar-menu .nav-item.active a .arrow {
+    top: 21px;
+    right: 30px;
+    transform: rotate(90deg);  
+}
+#sidebar #sidebar-menu .nav-item .sub-menu.active{
+    display: block!important;
+} 
+select{
+    cursor: pointer;
+}

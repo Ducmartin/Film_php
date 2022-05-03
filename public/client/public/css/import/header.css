@@ -1,0 +1,205 @@
+#header-wp{
+    background-color: #0c2738;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    display: block;
+}
+#header-wp #search{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: block;
+    height: 100px;
+}
+#header-wp #search .search{
+  position: relative;
+}
+#header-wp .main-menu{
+  position: relative;
+  background-color: #0c2738;
+    color: #0c2738;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-height: 75px;
+    text-align: center;
+    align-items: center!important;
+    box-sizing: border-box;
+   margin-bottom: 0px;
+   z-index: 10;
+}
+#header-wp .main-menu li{
+   display: inline-block;
+   color:#899ead ;
+  padding-left: 0px;
+}
+.logo>a{
+  padding: 15px 25px!important;
+}
+.logo{
+  border-bottom: 4px solid yellow;
+}
+#header-wp>.main-menu>li>a{
+  font-weight: normal;
+  font-size: 17px;
+  font-style: inherit;
+    color:#83878a ;
+    display: block;
+    padding: 25px 25px;
+    text-decoration: none;
+    min-height: 75px;
+    box-sizing: border-box;
+   z-index: 20;
+}
+#header-wp>.main-menu>li#kind,#header-wp>.main-menu>li#local{
+ position: relative;
+}
+#header-wp>.main-menu>li.dropdown>.dropdown-menu{
+  padding: 20px;
+ border-top: 1px solid #83878a;
+width: 500px;
+height: fit-content;
+background-color: #0c2738;
+}
+#header-wp .main-menu li.dropdown .dropdown-menu a.dropdown-item{
+  color: #83878a;
+  font-size: 18px!important;
+}
+#header-wp>.main-menu>li.dropdown>.dropdown-menu>.row a{
+  font-weight: normal;
+  text-decoration: none;
+}
+#header-wp>.main-menu>li.dropdown>.dropdown-menu>.row a:hover{
+ background-color: #0c2738;
+ color: #fff;
+}
+#header-wp .main-menu li a:hover{
+  color: #fff;
+}
+@-webkit-keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+  /* Standard syntax */ 
+  @keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+  
+  #header-wp .main-menu .logo i {
+    animation: xoayvong 2s linear 0s infinite;
+    -webkit-animation: xoayvong 2s linear 0s infinite;
+    -moz-animation: xoayvong 2s linear 0s infinite;
+    -o-animation: xoayvong 2s linear 0s infinite; 
+  }
+  /* menu respon */
+  #site {
+    position: relative;
+  }
+  #site  #menu-respon li a{
+    color: azure;
+  }
+  #site  #menu-respon li{
+    margin-left: 10px;
+    display: inline-block;
+    padding: 25px;
+  }
+  #site  #menu-respon #menu .icon-menu{
+    position: absolute;
+    left: -50px;
+    top: 24px;
+    text-decoration: none;
+    color: orange;
+    z-index: 6;
+  }
+/* menu */
+#site>#menu-respon>#menu>li>a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: orange;
+  text-decoration: none;
+  font-size: 15px;
+}
+#site>#menu-respon>#menu>ul>a{
+  display: none;
+  color: orange;
+  text-decoration: none;
+  font-size: 15px;
+  height: 41px;
+  border-bottom: 1px solid #fff;
+  margin: 10px;
+  padding-left: 18px;
+}
+#site   #menu-respon #menu li{
+  position: relative;
+  width: 92%;
+}
+#site   #menu-respon #menu .menu-item .main-menu-kind span.icon-add i,#site   #menu-respon #menu .menu-item .main-menu-country span.icon-add i{
+position: absolute;
+top: 28px;
+right: 10px;
+  color: orange;
+}
+#site   #menu-respon #menu .menu-item .sub-menu-kind,#site #menu-respon #menu .menu-item .sub-menu-country{
+display: none;
+}
+#site #menu-respon #menu .menu-item .sub-menu-kind li,#site #menu-respon #menu .menu-item .submenu-country li{
+  margin: 5px 0px;
+  padding: 10px; 
+}
+#site #menu-respon #menu .menu-item .sub-menu-kind li a,#site #menu-respon #menu .menu-item .submenu-country li a{
+  color: orange;
+  font-weight: lighter;
+  font-family: 'Font Awesome 5 Free';
+}
+#site {
+  position: relative;
+  overflow: hidden;
+}
+#site #menu-respon{
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: -200px;
+  background: #0c2738;
+  z-index: 10;
+  transition: right 0.25s;
+  display: none;
+}
+#site.open-respon-menu #menu-respon{
+  right: 0px;
+  transition: right 0.25s;
+}
+#site  #menu-respon #menu .menu-item{
+  border-bottom: 1px solid #fff;
+  padding: 25px;
+  font-size: 20px;
+  z-index: 6;
+}
+#site #container #top{
+  background: orange;
+  color: #fff;
+  font-size: 20px;
+  width: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}

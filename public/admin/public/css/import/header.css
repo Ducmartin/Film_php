@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto Regular';
+    font-size:20px;
+    line-height: 24px;
+}
+#wrapper {
+    background-color: #0c2738;
+    width: 100%; 
+    min-height: 900px; 
+}
+@-webkit-keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+  /* Standard syntax */ 
+  @keyframes xoayvong {
+    from {
+      -webkit-transform:rotate(0deg);
+      -moz-transform:rotate(0deg);
+      -o-transform:rotate(0deg);
+    }
+    to {
+      -webkit-transform:rotate(360deg);
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg);
+    }
+  }
+  
+  #wrapper #wp-header #header .logo i {
+    animation: xoayvong 2s linear 0s infinite;
+    -webkit-animation: xoayvong 2s linear 0s infinite;
+    -moz-animation: xoayvong 2s linear 0s infinite;
+    -o-animation: xoayvong 2s linear 0s infinite; 
+  }
+  #wrapper #wp-header #header{
+    padding: 30px;
+    min-height: 50px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+  }
+#wrapper #wp-header #header .slogan{
+font-size: 30px;
+position: absolute;
+right: 15%;
+top: 30px;
+color: orange
+}
+  #wrapper #wp-header #header a {
+      text-decoration: none;
+      font-size: 40px;
+      color: #dcd2d294;
+  }
+  #wrapper>#wp-header>#header>.btn-group>button .dropdown-menu.active{
+    display: block;
+  }

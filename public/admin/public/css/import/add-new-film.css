@@ -1,0 +1,67 @@
+#wp-content #content{
+    padding: 30px 10px;
+}
+#wp-content #content label{
+    margin: 10px 0px;
+    color: yellow;
+}
+#wp-content #content .title{
+    margin: 10px 0px;
+}
+#wp-content #content .header{
+    position: relative;
+}
+#wp-content #content .header h1{
+   font-size: 30px;
+   color: yellow;
+}
+#wp-content #content .header input{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#wp-content #content .header  form{
+    position: absolute;
+    right: 40px;
+    
+}
+#wp-content #content .status li{
+    margin: 10px;
+    padding: 5px;
+    background: orange;
+}
+#wp-content #content .status li a:hover{
+color: yellow;
+}
+#wp-content #content .status li a{
+text-decoration: none;
+color: #fff;
+}
+#wp-content #content .list-film table tr th,tr td{
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+}
+#wp-content #content .list-film table tr th.film-photo{
+    width: 100px;
+}
+#wp-content #content .list-film table tr td{
+    border-top: 1px solid #fff;
+    height: 80px;
+  vertical-align: middle;
+}
+#wp-content #content .list-film table tr td a:hover{
+    color: violet;
+}
+#wp-content #content .list-film table tr td a{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+#wp-content #content .list-film table{
+    margin-top:10px ;
+    border: 1px solid #ffff;
+    width: 100%;
+}

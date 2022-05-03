@@ -1,0 +1,20 @@
+#footer-wp{
+    background-image: linear-gradient(
+        180deg,#081b27,rgba(8,27,39,.8)),url('http://localhost/subphimnhanh.net/public/client/public/images/bg-footer.jpg');    
+    background-position: 0 0,50% 50%;
+    background-size: auto,cover;
+    font-size: 15px;
+}
+#footer-wp .footer{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#footer-wp .footer a{
+    text-align: center;
+    display: block;
+    text-decoration:none;
+    margin: 5px 5px;
+}
+#footer-wp .footer a:hover{
+    color: orange;
+}

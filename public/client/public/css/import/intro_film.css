@@ -1,0 +1,77 @@
+.intro_film{
+    /* margin-top: 20px; */  
+    background-position: 0 0,50% 50%;
+    background-size: auto,cover;
+    color: rgb(238, 244, 245);
+    font-size: 20px;
+}
+.intro_film .content img{
+    width: 100%;
+    height: 600px;
+}
+.intro_film .content .header-content-block .rating{
+    font-size: 20px;
+    height: fit-content;
+    margin: 5px 5px;
+    display: inline-block;
+    position: relative;
+    transition: all 25ms ease;
+}
+.intro_film .content .header-content-block .rating i:hover{
+    color: orange;
+}
+.intro_film .content .header-content-block .rating i.vote{
+    color:orange;
+}
+.intro_film .content .header-content-block .rating i.star.vote-hover {
+    color: orange;
+}
+
+.intro_film .content .header-content-block .rating i.star:active {
+    color: orange;
+}
+
+.intro_film .content .header-content-block .rating i.star.vote-active {
+    color: orange;
+}
+.blue {
+    color: orange;
+}
+.intro_film .content .header-content-block .info-block{
+   margin-bottom: 25px;
+   margin-top: 25px;
+}
+.intro_film .content .header-content-block .info-block a{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.intro_film .content .header-content-block .header-title{
+    font-size: 32px;
+    margin: 5px 5px;
+}
+.intro_film .content .header-content-block .header-short-description{
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    line-height: 35px;
+}
+ .content-descript{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgba(255, 255, 255, 0.548);
+    padding: 40px 10px;
+    line-height: 23px;
+}
+.content-descript h1{
+    color: orange;
+    font-size: 28px;
+    margin-bottom: 26px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.content-descript p{
+    line-height: 23px;
+    margin: 20px 10px;
+}

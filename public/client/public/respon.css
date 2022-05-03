@@ -1,0 +1,101 @@
+@media screen and (max-width: 1800px){
+    #header-wp .main-menu{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+    }
+   
+}
+@media screen and (max-width:1280px) {
+    #container #header-wp li.logo>a{
+        font-size: 30px!important;
+    }
+    #header-wp .main-menu li a,span {
+        font-size: 15px!important;
+    }
+    #site #menu-respon #menu .icon-menu span{
+        font-size: 30px!important;
+    }
+}
+@media screen and (max-width: 1024px){
+    .film .film-new-update .item_film .description .title{
+        top: 20%;
+        font-size: 15px;
+    }
+    #site #logo_respon{
+        display: block!important;
+    }
+    .content-wp .content  .film .film-new-update a img.thumbnail{
+        height: 210px;
+    }
+    #header-wp #search{
+        display: none;
+    }
+    .film .film-new-update .item_film .description .name{
+        position: absolute;
+        top: -5px;
+    }
+    .content-wp .content .film .film-new-update a img.tray-item-thumbnail {
+        height: 250px;
+    }
+    #site #container #header-wp li.no-respon{
+        display:none;
+    }
+    .content-wp .content  #myCarousel.carousel{
+        display: none!important;
+    }
+    .content-wp .content .film_slider{
+        display: none!important;
+    }
+    /* #container #header-wp li.logo{
+        position: absolute;
+        left: 35px;
+    } */
+    #site #menu-respon{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content-wp .content .film .film-new-update a img.tray-item-thumbnail {
+        height: 500px;
+    }
+      .film .film-new-update .item_film .description .title{
+    top: 20%;
+    font-size: 25px;
+    }
+     .content-wp .content .sidebar-detail-film{
+        display: none;
+    }
+    .content-wp .content .film-same-kind .line a img{
+        height: 100%;
+     }
+    .content-wp .content .film .film-new-update h1{
+        font-size: 35px;
+        color: green;
+    }
+    #container #header-wp li.logo a i.fas.fa-film.box{
+        display: none;
+    }
+    .content-wp .content .film .film-new-update .slider{
+        display: none;
+    }
+    .content-wp .content .film-same-kind .line{
+        height: 450px;
+    }
+}
+@media screen and (max-width: 375px){
+    .intro_film .content img{
+        height:350px;;
+    }
+    .intro_film .content .header-content-block .info-block a {
+        margin: 0px!important;
+    }
+    .content-wp .content .film .film-new-update a img.tray-item-thumbnail {
+        height: 250px;
+    }
+    .film .film-new-update .item_film .description .title {
+        font-size: 20px;
+    }
+  
+}
